@@ -1,0 +1,327 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.caja1{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+}
+
+.inicio11{
+    width: 400px;
+    height: 800px;
+    position: absolute;
+}
+
+.quince11{
+    width: 300px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+
+    animation-name: aparecer;
+    animation-duration: 3s;
+}
+
+.nombre11{
+    width: 300px;
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 50px;
+
+    animation-name: aparecer2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+.musica{
+    margin-top: 730px;
+    margin-left: 60px;
+
+    animation-name: musicaAparece;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes musicaAparece {
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} 
+
+@keyframes aparecer2 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+.caja2{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+}
+
+.parte22{
+    width: 400px;
+    height: 800px;
+    position: absolute;
+}
+
+.llego22{
+    width: 300px;
+    position: absolute;
+    margin: 50px;
+    margin-top: 90px;
+
+    animation-name: aparecerllego;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes aparecerllego {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.caja3{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+}
+
+.parte33{
+    width: 400px;
+    height: 800px;
+    position: absolute;
+}
+
+.calendario33{
+    width: 300px;
+    position: absolute;
+    margin-left: 50px;
+
+    animation-name: crecer;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-fill-mode: backwards;
+}
+
+.recepcion33{
+    width: 350px;
+    margin-top: 350px;
+    margin-left: 25px;
+    position: absolute;
+
+    animation-name: crecerArriba;
+    animation-duration: 3s;
+    animation-delay: 5s;
+    animation-fill-mode: backwards;
+}
+
+.ubicacion33{
+    width: 200px;
+    margin-top: 630px;
+    margin-left: 100px;
+    position: absolute;
+
+    animation-name: aparecerUbicacion;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes crecer {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes crecerArriba {
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes aparecerUbicacion {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.caja4{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+}
+
+.parte44{
+    width: 400px;
+    height: 800px;
+    position: absolute;   
+}
+
+.padres44{
+    width: 300px;
+    margin-top: 300px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+.gato44{
+    width: 200px;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.gato442{
+    width: 350px;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 600px;
+    transition: 1s;
+}
+
+.gato44:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+.gato442:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+.caja5{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+}
+
+.parte55{
+    width: 400px;
+    height: 800px;
+    position: absolute;
+    animation-name: aparecerBtn55;
+    animation-duration: 2s;
+    animation-delay: 7s;
+    animation-fill-mode: backwards;
+}
+
+.btn55{
+    width: 300px;
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 50px;
+
+    animation-name: crecerbtn55;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes aparecerBtn55 {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes crecerbtn55 {
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+
+.caja6{
+    width: 400px;
+    height: 800px;
+    margin: auto;
+    margin-top: 400px;
+}
+
+.parte66{    
+    width: 400px;
+    height: 800px;  
+    position: absolute;
+}
+
+.regalo66{
+    width: 100px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 150px;
+    transition: 1s;
+}
+
+.terno66{
+    width: 100px;
+    margin-top: 390px;
+    position: absolute;
+    margin-left: 80px;
+    transition: 1s;
+}
+
+.vestido66{
+    width: 90px;
+    margin-top: 380px;
+    position: absolute;
+    margin-left: 220px;
+    transition: 1s;
+}
+
+.regalo66:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+.terno66:hover{
+    transition: 1s;
+    transform: scale(1.5);
+}
+
+.vestido66:hover{
+   transition: 1s;
+    transform: scale(1.5); 
+}
